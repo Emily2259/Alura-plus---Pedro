@@ -1,0 +1,67 @@
+<html lang="pt-BR">
+
+<head>
+    <title>ENEM Plus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__titulo">Enem-Plus</h1>
+        <nav class="header__nav">
+            <ul class="nav__lista">
+                <li class="lista__item"><a href="#sobre">Sobre o ENEM</a></li>
+                <li class="lista__item"><a href="#simulados">Simulados</a></li>
+                <li class="lista__item"><a href="#dicas">Dicas de Estudo</a></li>
+                <li class="lista__item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="container">
+        <h2 class="container__titulo">Sobre o ENEM</h2>
+        <p class="container__texto">O Exame Nacional do Ensino Médio (ENEM) é uma prova realizada anualmente no Brasil. Ele é utilizado como critério de seleção para ingresso em diversas universidades e programas de bolsas de estudo.</p>
+        <img src="enem.jpg" alt="Imagem relacionada ao ENEM" class="container__imagem">
+    </section>
+
+    <section id="simulados" class="container">
+        <h2 class="container__titulo">Simulados</h2>
+        <p class="container__texto">Pratique com nossos simulados gratuitos e esteja preparado para o ENEM. Escolha entre diversas áreas de conhecimento e teste seus conhecimentos.</p>
+        <a href="https://quizenem.com" class="container__botao">Acessar Simulados</a>
+    </section>
+
+    <section id="dicas" class="container">
+        <h2 class="container__titulo">Dicas de Estudo</h2>
+        <ul class="dicas__lista">
+            <li class="lista__item">Organize seu tempo de estudo.</li>
+            <li class="lista__item">Faça resumos e mapas mentais.</li>
+            <li class="lista__item">Pratique com questões de provas anteriores.</li>
+            <li class="lista__item">Descanse e mantenha uma alimentação saudável.</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="container">
+        <h2 class="container__titulo">Contato</h2>
+        <p class="container__texto">Tem alguma dúvida ou sugestão? Entre em contato conosco!</p>
+        <form class="contato__form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit" class="container__botao">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="rodape">
+        <p class="rodape__texto">®️ 2024 ENEM Plus. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
